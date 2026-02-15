@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Metropolis";
+    src: url("assets/fonts/metropolis/Metropolis-Regular.otf"),
+    format(truetype);
+}
+body{
+    font-family: "Metropolis";
+    font-size: 15px;
+    font-weight: 400;
+}
+img{
+    /* max-width: 100%; */
+    height: auto;
+}
+.container{
+    max-width: 1396px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1{
+    max-width: 435px;
+    font-family: "Metropolis";
+    font-size: 57px;
+    color: #010101;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-top: 111px;
+}
+h2{
+    
+    font-family: "Metropolis";
+    font-weight: 700;
+    font-size: 36px;
+    color: #343434;
+    line-height: 1.1;
+    margin-top: 116px;
+    text-align: center
+}
+.main-heading p{
+    max-width: 622px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    color: #999999;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 25px;
+    text-align: center
+}
+h3{
+    font-family: "Metropolis";
+    font-weight: 700;
+    font-size: 22px;
+    color: #363940;
+    margin-top: 18px;
+}
+.heading p{
+    max-width: 391px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    margin-top: 23px;
+    line-height: 1.3;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col35{
+    max-width: 35%;
+    flex: 0 0 35%;
+    padding: 0 15px;
+}
+.col45{
+    max-width: 45%;
+    flex: 0 0 45%;
+    padding: 0 15px;
+}
+.col20{
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding: 0 15px;
+}
+.col25{
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    font-family: "Metropolis";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    
+}
+.navlinks li {
+    margin-top: 28px;
+}
+.navlinks a{
+    text-transform: uppercase;
+    color: #010101;
+}
+.navlinks a:hover{
+    color: #ED017F;
+}
+.search a{
+    color: #ED017F;
+}
+.search{
+    margin: 28px;
+    max-width: 24px;
+    height: 24px;
+}
+.headerbtn {
+    display: flex;
+    gap: 27px;
+}
+.bottom{
+    margin: 17px 36px;
+    display: inline-block;
+    border-radius: 4px;
+    background: #ED017F;
+    padding: 16px 30px;
+    transition: 0.5s ease;     
+}
+.bottom a{
+    font-family: "Metropolis";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+.bottom:hover{
+    background: lightskyblue;
+}
+.header-bottom a{
+    font-family: "Metropolis";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header-bottom{
+    display: inline-block;
+    border-radius: 4px;
+    background: #ED017F;
+    transition: 0.5s ease; 
+    padding: 13px 23px;
+}
+.header-bottom:hover{
+    background-color: lightskyblue;
+}
+.cmn-bottom{
+    display: flex;
+    gap: 20px;
+    margin-top: 38px;
+}
+.header-cmn-btn a{
+    font-family: "Metropolis";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #ED017F;
+}
+.header-cmn-btn {
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #ED017F;
+    padding: 13px 20px;
+}
+.header-cmn-btn:hover{
+    background-color: lightskyblue;
+}
+.call{
+    display: flex;
+    gap: 11px;
+}
+.call p{
+    font-family: "Metropolis";
+    font-size: 17px;
+    font-weight: 600;
+    color: #010101;
+    line-height: 1.2;
+}
+.call p:hover{
+    color: #ED017F;
+}
+.icon-menu{
+    display: flex;
+}
+.facebook{
+    color: #4B7FCD;
+}
+.youtube{
+    color: #FF0000;
+}
+.linkedin{
+    color: #4A71FB;
+}
+.instagram{
+    color: #ED017F;
+}
+.icon-menu{
+    margin-top: 52px;
+    display: flex;
+    gap: 44px;
+}
+.menu{
+    display: flex;
+    gap: 16px;
+}
+.car{
+    display: flex;
+}
+.house{
+    display: flex;  
+}
+figure{
+    gap: 11px;
+}
+.light-btn{
+    display: inline-block;
+    padding: 25px 32px;
+    border-radius: 55pc;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    margin-top: 61px;
+}
+.light-btn p{
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #343434; 
+}
+
+.light-bottom{
+    display: inline-block;
+    padding: 25px 32px;
+    border-radius: 55pc;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    margin-top: 155px;
+}
+.light-bottom p{
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #343434; 
+}
+.content{
+    margin-top: 111px;
+}
+/* .Digital, */
+/* .Teamwork, */
+/* .Corporate, */
+/* .Diversity, */
+/* .Technology, */
+/* .Demonstrate, */
+.Collaboration p,
+.Integrity p{
+    max-width: 160px;
+    font-family: "Metropolis";
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.7;
+    margin-top: 18px;
+    margin-bottom: 41px;
+}
+ 
+.Technology p,
+.Demonstrate p{
+    margin-top: 18px;
+    max-width: 160px;
+    font-family: "Metropolis";
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 58px;
+}
+
+.Corporate p,
+.Diversity p{
+    margin-top: 18px;
+    max-width: 160px;
+    font-family: "Metropolis";
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 60px; 
+}
+
+.Digital p,
+.Teamwork p{
+    margin-top: 18px;
+    max-width: 160px;
+    font-family: "Metropolis";
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 45px;
+}
+.our-services p{
+    max-width: 791px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    color: #999999;
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 69px;
+}
+
+.auto-loan h3,
+.Deposit-schemes h3,
+.Personal-loan h3,
+.Schemes h3{
+    max-width: 195px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* padding-bottom: 31px; */
+}
+/* .auto-loan,
+.Deposit-schemes,
+.Personal-loan,
+.Schemes{
+    display: flex;   
+    flex-direction: column;
+    gap: 15px;
+} */
+
+
+.arrow-btn {
+    /* align-self: flex-end; */
+    
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: #ff2e7a;
+    border-radius: 50%;
+    color: #fff;
+    transition: 0.3s ease;
+    /* margin-left: auto; */
+}
+
+.main-service{
+    background-color: #FEF9FC;
+    padding: 40px 30px;
+}
+.services-row {
+   display: flex;
+}
+.Schemes,
+.Personal-loan,
+.Deposit-schemes,
+.auto-loan {
+    position: relative;
+}
+
+.arrow-btn {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+
+}
+.Schemes:hover img,
+.Personal-loan:hover img,
+.Deposit-schemes:hover img,
+.auto-loan:hover img {
+    transform: scale(1.08);
+}
+.arrow-btn:hover {
+    background: lightskyblue;
+}
+.Percentage-heading p{
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 89px;
+}
+.personal-loan h3{
+    max-width: 172px;
+    font-size: 40px;
+    color: #ED017F;
+    font-weight: 900;
+    font-family: "Metropolis";
+    margin-bottom: 10px;
+}
+
+.personal-loan p{
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    line-height: 1.5;
+    margin-bottom: 67px;
+    max-width: 172px;
+    text-transform: uppercase;
+}
+.equity h3{
+    max-width: 172px;
+    font-size: 40px;
+    color: #343434;
+    font-weight: 900;
+    font-family: "Metropolis";
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.equity p,
+.Ratio p,
+.Capitalization p{
+    margin-top: 8px;
+    max-width: 172px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.Rating p{
+    margin-bottom: 85px;
+    max-width: 172px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.PORTFOLIO h3,
+.Coverage h3,
+.Deposit h3{
+    max-width: 172px;
+    font-size: 40px;
+    color: #343434;
+    font-weight: 900;
+    font-family: "Metropolis";
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.PORTFOLIO p,
+.Coverage p{
+    max-width: 172px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.Deposit p{
+    max-width: 172px;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.Ratio h3,
+.Capitalization h3,
+.Rating h3{
+    max-width: 172px;
+    font-size: 40px;
+    color: #343434;
+    font-weight: 900;
+    font-family: "Metropolis";
+}
+.footer-heading{
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 600;
+    color: #010101;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.footer p{
+    max-width: 180px;
+    font-family: "Metropolis";
+    color: #676767;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 46px;
+}
+.footer-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 86px;
+}
+.Products{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Metropolis";
+    line-height: 1.2;
+    color: #363940;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.Products-itam a,
+.Get-Started-itam a,
+.About-itam a{
+    font-family: "Metropolis";
+    font-size: 14px;
+    font-weight: 500;
+    color: #676767;    
+}
+.Products-itam li,
+.Get-Started-itam li,
+.About-itam li{
+    margin-top: 20px;
+}
+.Get-Started,
+.About{
+    margin-top: 90px;
+    max-width: 102px;
+    font-family: "Metropolis";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #363940;
+}
+.footer-heading:hover,
+.Products:hover,
+.Get-Started:hover,
+.About:hover{
+    color: #ED017F;
+}
+.phone{
+    margin-top: 160px;
+    display: flex;
+    gap: 11px;   
+}
+.number{
+    max-width: 50px;
+    font-family: "Metropolis";
+    font-size: 17px;
+    font-weight: 600;
+    color: #010101;
+    line-height: 1.2;
+}
+.number:hover{
+    color: #ED017F;
+}
